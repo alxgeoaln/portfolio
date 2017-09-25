@@ -1,8 +1,71 @@
+html * {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 170%;
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header a:hover {
+    text-decoration: underline #EDB83D !important;
+    border-radius: 0px;
+    font-weight: bold;
+    background-color: white !important;
+    color: #363237 !important;
+}
+
+.header a {
+    color: #363237;
+}
+
+.header {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.sub-title {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
 .about-section {
-    width: 800px;
+    width: 75%;
     margin: 0 auto;
 }
+
 .services-section {
-    width: 800px;
+    width: 75%;
     margin: 0 auto;
 }
+
+#social-media {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#email-button {
+    border: 3px solid #EDB83D;
+    color: #EDB83D;
+}
+
+.link-button {
+    color: #EDB83D;
+    text-decoration: none;
+}
+
