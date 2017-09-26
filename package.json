@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxgeoaln/portfolio.git"
+  },
+  "author": "Georgian Alin Alexandru",
+  "license": "ISC",
+  "dependencies": {
+    "express" : "*",
+    "path": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/alxgeoaln/portfolio/issues"
+  },
+  "homepage": "https://github.com/alxgeoaln/portfolio#readme"
+}

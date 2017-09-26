@@ -6,8 +6,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./slideshow.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/slideshow.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
@@ -23,15 +23,15 @@
                 <li class="nav-button"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <img style="width: 40px;" src="./assets/logo/Portfolio%20logo.svg" alt="">
+        <img style="width: 40px;" src="./assets/logo/Portfolio%20logo.svg" alt="logo">
     </div>
     <hr/>
     <div id="intro-section" class="text-center">
-        <h1>Hi, I'm Alin. I design & build</h1>
-        <h1>Web & Mobile applications</h1>
+        <h1 style="font-weight: bold; font-size: 48px;">Hi, I'm Alin. I design & build</h1>
+        <h1 style="font-weight: bold; font-size: 48px;">Web & Mobile applications</h1>
     </div>
     <br/>
-    <div id="about" class="about-section">
+    <div id="about" class="about-section text-center">
         <h3 style="font-weight: bold">About:</h3>
         <p>I currently work as a Web Developer at Systegra Engineering, the place where I consume my passion for
             development and I am also student in my first year of masters
@@ -63,21 +63,21 @@
         <h3 class="title">Projects that I worked on</h3>
     </div>
     <!--region Projects slideshow-->
-        <div class="slideshow-container">
-            <div class="mySlides fade-slide">
-                <img src="./assets/projects-logo/pointtaxi.png"  style="width:100%;">
-            </div>
-
-            <div class="mySlides fade-slide">
-                <img src="./assets/slideshow/img2.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade-slide">
-                <img src="./assets/slideshow/img3.jpg" style="width:100%">
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="slideshow-container">
+        <div class="mySlides fade-slide">
+            <img src="./assets/projects-logo/pointtaxi.png" style="width:100%;">
         </div>
+
+        <div class="mySlides fade-slide">
+            <img src="./assets/slideshow/img2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade-slide">
+            <img src="./assets/slideshow/img3.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
 
     <br>
 
@@ -98,7 +98,10 @@
     </div>
     <hr/>
     <div id="footer" class="text-center">
-        Handmade by me © 2017.
+        <div class="row">
+            <img style="width: 40px;" src="./assets/logo/Portfolio%20logo.svg" alt="logo">
+        </div>
+        <p style="margin-top: 5px;">Handmade by me © 2017.</p>
         <br/>
         <div id="social-media">
             <a href="https://www.facebook.com/georgian.alin.77?ref=bookmarks">
@@ -110,6 +113,6 @@
         </div>
     </div>
 </div>
-<script src="./slideshow.js"></script>
+<script src="./js/slideshow.js"></script>
 </body>
 </html>
