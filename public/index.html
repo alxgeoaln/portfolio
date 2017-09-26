@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/slideshow.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awsome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/card-materlialize.css">
+    <!--<link rel="stylesheet" href="./materlialize/css/materialize.css">-->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-
 </head>
 <body style="border: 8px solid #363237;">
 <div class="container">
@@ -27,72 +28,94 @@
     </div>
     <hr/>
     <div id="intro-section" class="text-center">
-        <h1 style="font-weight: bold; font-size: 48px;">Hi, I'm Alin. I design & build</h1>
-        <h1 style="font-weight: bold; font-size: 48px;">Web & Mobile applications</h1>
+        <h1 class="intro-text">Hi, I'm Alin. I design & build </h1>
+        <h1 class="intro-text">Web & Mobile applications</h1>
     </div>
     <br/>
-    <div id="about" class="about-section text-center">
-        <h3 style="font-weight: bold">About:</h3>
-        <p>I currently work as a Web Developer at Systegra Engineering, the place where I consume my passion for
-            development and I am also student in my first year of masters
-            degree learning Telematic Systems for Transports. You can check my work history on <a
-                    class="link-button"
-                    href="https://www.linkedin.com/in/georgian-alin-alexandru-5ab995119/">LinkedIn</a>.
-            Outside of work I like to hang out with friends and travel. If you have a project to be done, don't hesitate
-            to
-            <a href="#contact" class="link-button">contact me</a> and get a coffee.
-        </p>
+    <div id="about">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h3 class="title">About</h3>
+                <p style="text-align: justify;">I currently work as a Web Developer at Systegra Engineering, the place
+                    where I consume my passion for
+                    development and I am also student in my first year of masters
+                    degree learning Telematic Systems for Transports. You can check my work history on <a
+                            class="link-button"
+                            href="https://www.linkedin.com/in/georgian-alin-alexandru-5ab995119/">LinkedIn</a>.
+                    Outside of work I like to hang out with friends and travel. If you have a project to be done, don't
+                    hesitate
+                    to
+                    <a href="#contact" class="link-button">contact me</a> and get a coffee.
+                </p>
+            </div>
+        </div>
+
     </div>
     <br>
-    <div id="services" class="about-section">
-        <h3 class="title">Services:</h3>
-        <h4 class="sub-title">FRONT END DEVELOPMENT</h4>
-        <p>
-            Building out visual concepts of a website. Using HTML, CSS and Javascript Frameworks I can build fast and
-            interactive websites.
-            I also can bring to life your ideas about mobile apps using React Native, a cross-platform technology.
-        </p>
-        <h4 class="sub-title">BACK END DEVELOPMENT</h4>
-        <p>
-            The Back End is the engine that holds up a web app or a mobile app. Using NodeJS with a SQL or NO-SQL
-            Database
-            I can build a app front to back.
-        </p>
+    <div id="services">
+        <div class="row text-center">
+            <h3 class="title">Services</h3>
+        </div>
+        <br/>
+        <div class="col-md-6 text-center">
+            <i class="fa fa-code fa-4x flash-yellow" aria-hidden="true"></i>
+            <h4 class="sub-title">FRONT END DEVELOPMENT</h4>
+            <p style="text-align: justify;">
+                Building out visual concepts of a website. Using HTML, CSS and Javascript Frameworks I can build fast
+                and
+                interactive websites.
+                I also can bring to life your ideas about mobile apps using React Native, a cross-platform technology.
+            </p>
+        </div>
+        <div class="col-md-6 text-center">
+            <i class="fa fa-cogs fa-4x flash-yellow" aria-hidden="true"></i>
+            <h4 class="sub-title">BACK END DEVELOPMENT</h4>
+            <p style="text-align: justify;">
+                The Back End is the engine that holds up a web app or a mobile app. Using NodeJS with a SQL or NO-SQL
+                Database
+                I can build a app front to back.
+            </p>
+        </div>
     </div>
-    <div class="about-section" id="projects">
-        <h3 class="title">Projects that I worked on</h3>
-    </div>
-    <!--region Projects slideshow-->
-    <div class="slideshow-container">
-        <div class="mySlides fade-slide">
-            <img src="./assets/projects-logo/pointtaxi.png" style="width:100%;">
+
+    <div id="projects">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h3 class="title">Projects</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/projects-logo/pointtaxi.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 primary-font">Point Taxi<i
+                                style="font-size: 20px; font-style: normal;" class="pull-right">Details</i></span>
+                        <p><a href="#" class="link-button primary-font">Visit Website</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Point Taxi<i
+                                class="fa fa-close pull-right"></i></span>
+                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="mySlides fade-slide">
-            <img src="./assets/slideshow/img2.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides fade-slide">
-            <img src="./assets/slideshow/img3.jpg" style="width:100%">
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-
-    <br>
-
-
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-    <!--endregion-->
     <hr/>
     <div id="contact">
         <div class="text-center">
             <h3>Want to get a project done together?</h3>
-            <button id="email-button" class="btn btn-default btn-lg">Send me a email</button>
+            <button id="email-button" style="margin-top: 10px;" class="btn btn-default btn-lg">Send me a email</button>
         </div>
 
     </div>
@@ -113,6 +136,10 @@
         </div>
     </div>
 </div>
-<script src="./js/slideshow.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="materlialize/js/materialize.js"></script>
 </body>
 </html>

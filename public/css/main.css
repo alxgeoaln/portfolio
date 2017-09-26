@@ -1,10 +1,13 @@
-html * {
+h1, h2, h3, h4, h5 {
     font-family: 'Raleway', sans-serif !important;
+    color: #363237 !important;
 }
 
 p {
     font-size: 1.3em;
     line-height: 170%;
+    font-family: 'Raleway', sans-serif !important;
+    color: #363237 !important;
 }
 
 body {
@@ -18,6 +21,10 @@ body {
     font-weight: bold;
     background-color: white !important;
     color: #363237 !important;
+}
+
+.primary-font {
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .header a {
@@ -37,6 +44,7 @@ body {
 
 .title {
     font-weight: bold;
+    font-size: 30px;
 }
 
 .sub-title {
@@ -61,6 +69,7 @@ body {
 #email-button {
     border: 3px solid #EDB83D;
     color: #EDB83D;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .link-button {
@@ -68,3 +77,25 @@ body {
     text-decoration: none;
 }
 
+.intro-text {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.flash-yellow {
+    color: #EDB83D;
+}
+
+/*MEDIA QUERRYS*/
+
+@media only screen and (max-width: 500px) {
+    .intro-text {
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 25px;
+    }
+}
