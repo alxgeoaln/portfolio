@@ -13,7 +13,9 @@
   "author": "Georgian Alin Alexandru",
   "license": "ISC",
   "dependencies": {
-    "express" : "*",
+    "body-parser": "^1.18.2",
+    "express": "*",
+    "nodemailer": "^4.1.2",
     "path": "*"
   },
   "bugs": {

@@ -1,148 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Alin Alexandru</title>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <base href="/">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/font-awsome/css/font-awesome.css">
-    <link rel="stylesheet" href="./css/card-materlialize.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+  <link rel="stylesheet" href="./assets/toastr.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
-<body style="border: 8px solid #363237;">
-<div id="main-page" class="container">
-    <div id="navigation" class="header clearfix">
-        <nav>
-            <ul class="nav nav-pills pull-right">
-                <li class="nav-button"><a href="#">About</a></li>
-                <li class="nav-button"><a href="#projects">Projects</a></li>
-                <li class="nav-button"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <img style="width: 40px;" src="./assets/logo/Portfolio%20logo.svg" alt="logo">
-    </div>
-    <hr/>
-    <div id="intro-section" class="text-center">
-        <h1 class="intro-text">Hi, I'm Alin. I design & build </h1>
-        <h1 class="intro-text">Web & Mobile applications</h1>
-    </div>
-    <br/>
-    <div id="about">
-        <div class="row text-center">
-            <div class="col-md-12">
-                <h3 class="title">About</h3>
-                <p style="text-align: justify;">I currently work as a Web Developer at Systegra Engineering, the
-                    place
-                    where I consume my passion for
-                    development and I am also student in my first year of masters
-                    degree learning Telematic Systems for Transports. You can check my work history on <a
-                            class="link-button"
-                            href="https://www.linkedin.com/in/georgian-alin-alexandru-5ab995119/">LinkedIn</a>.
-                    Outside of work I like to hang out with friends and travel. If you have a project to be done,
-                    don't
-                    hesitate
-                    to
-                    <a href="#contact" class="link-button">contact me</a> and get a coffee.
-                </p>
-            </div>
-        </div>
+<body class="body-border">
+  <app-root></app-root>
 
-    </div>
-    <br>
-    <div id="services">
-        <div class="row text-center">
-            <h3 class="title">Services</h3>
-        </div>
-        <br/>
-        <div class="col-md-6 text-center">
-            <i class="fa fa-code fa-4x flash-yellow" aria-hidden="true"></i>
-            <h4 class="sub-title">FRONT END DEVELOPMENT</h4>
-            <p style="text-align: justify;">
-                Building out visual concepts of a website. Using HTML, CSS and Javascript Frameworks I can build
-                fast
-                and
-                interactive websites.
-                I also can bring to life your ideas about mobile apps using React Native, a cross-platform
-                technology.
-            </p>
-        </div>
-        <div class="col-md-6 text-center">
-            <i class="fa fa-cogs fa-4x flash-yellow" aria-hidden="true"></i>
-            <h4 class="sub-title">BACK END DEVELOPMENT</h4>
-            <p style="text-align: justify;">
-                The Back End is the engine that holds up a web app or a mobile app. Using NodeJS with a SQL or
-                NO-SQL
-                Database
-                I can build a app front to back.
-            </p>
-        </div>
-    </div>
-
-    <div id="projects">
-        <div class="row text-center">
-            <div class="col-md-12">
-                <h3 class="title">Projects</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/projects-logo/pointtaxi.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4 primary-font">Point Taxi<i
-                                style="font-size: 20px; font-style: normal;" class="pull-right">Details</i></span>
-                        <p><a href="http://pointtaxi.ro/" class="link-button primary-font">Visit Website</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Point Taxi<i
-                                class="fa fa-close pull-right"></i></span>
-                        <p>I worked on this project with my colleagues at <a href="http://www.aptus.ro/en/">Aptus
-                            Software</a>. My role as a Front End Developer was to create new futures and resolve
-                            existing bugs.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <hr/>
-    <div id="contact">
-        <div class="text-center">
-            <h3>Want to get a project done together?</h3>
-            <button id="email-button" style="margin-top: 10px;" class="btn btn-default btn-lg">Send me a email
-            </button>
-        </div>
-
-    </div>
-    <hr/>
-    <div id="footer" class="text-center">
-        <div class="row">
-            <img style="width: 40px;" src="./assets/logo/Portfolio%20logo.svg" alt="logo">
-        </div>
-        <p style="margin-top: 5px;">Handmade by me © 2017.</p>
-        <br/>
-        <div id="social-media">
-            <a href="https://www.facebook.com/georgian.alin.77?ref=bookmarks">
-                <img src="./assets/facebook.svg" style="width: 35px;" alt="facebook"/>
-            </a>
-            <a href="https://www.linkedin.com/in/georgian-alin-alexandru-5ab995119/">
-                <img src="./assets/linkedin.svg" style="width: 35px;" alt="facebook"/>
-            </a>
-        </div>
-    </div>
-</div>
-
-
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-<script src="materlialize/js/materialize.js"></script>
-<script src="./main.js"></script>
-</body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="./assets/toastr.min.js"></script>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
 </html>
