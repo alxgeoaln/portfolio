@@ -293,7 +293,6 @@ var HeaderComponent = (function () {
     };
     HeaderComponent.prototype.onWindowScroll = function () {
         var number = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        console.log(number);
         if (number >= 100) {
             this.navIsFixed = true;
         }
